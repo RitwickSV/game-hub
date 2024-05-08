@@ -30,7 +30,8 @@ const useGames = () => {
     {
       genres: gameQuery.genreId,
       parent_platforms: gameQuery.platformId,
-      ordering: gameQuery.sortOrder
+      ordering: gameQuery.sortOrder,
+      search: gameQuery.searchInput
     }
 })
 })}
